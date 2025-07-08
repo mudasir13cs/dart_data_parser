@@ -26,6 +26,4 @@ topics:
   - parser
   - converter
   - data-manipulation
-  - string-processing
   - cross-platform
-  - platform-detection
