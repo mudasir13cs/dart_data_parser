@@ -171,13 +171,13 @@ class DartDataParser {
   }
 
   /// Capitalizes first letter and lowercases the rest
-  String toCapitalized(String str) => str.length > 0
+  String toCapitalized(String str) => str.isNotEmpty
       ? '${str[0].toUpperCase()}${str.substring(1).toLowerCase()}'
       : '';
 
   /// Converts string to title case
   String strToTitleCase(String str) {
-    if ('$str'.isEmpty) return '';
+    if (str.isEmpty) return '';
     return str.replaceAllMapped(RegExp(r'\b\w+\b'), (match) {
       return toCapitalized(match.group(0)!);
     });
