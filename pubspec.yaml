@@ -1,0 +1,28 @@
+name: dart_data_parser
+description: A comprehensive utility library for parsing and transforming data types in Dart with cross-platform support and no external dependencies.
+version: 1.0.0
+homepage: https://github.com/mudasir13cs/dart_data_parser.git
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  test: ^1.24.0
+  lints: ^2.0.0
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+topics:
+  - utility
+  - parser
+  - converter
+  - data-manipulation
+  - string-processing
+  - cross-platform
+  - platform-detection
