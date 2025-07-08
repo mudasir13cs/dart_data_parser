@@ -81,7 +81,7 @@ class DartDataParser {
 
   /// Converts Map<String, dynamic> to Map<dynamic, dynamic>
   Map<dynamic, dynamic> getStringDynamicMap(Map<String, dynamic> data) {
-    return (data is Map<String, dynamic>) ? data : {};
+    return data;
   }
 
   /// Converts Map<dynamic, dynamic> to Map<String, dynamic>
